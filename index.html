@@ -21,7 +21,7 @@
     }
     
     function closeOneTap(data) {
-      if(data.l && data.l == "user_cancel") window.top.postMessage({ type: 'closeGoogleOneTap' }, "*");
+      if(data.m && data.m == "user_cancel") window.top.postMessage({ type: 'closeGoogleOneTap' }, "*");
     }
 
     function handleOneTapResponse(data) {
